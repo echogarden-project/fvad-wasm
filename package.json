@@ -1,6 +1,6 @@
 {
   "name": "@echogarden/fvad-wasm",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "WebRTC VAD library, compiled to WASM. Intended for use with Echogarden.",
   "publishConfig": {
     "access": "public"
@@ -17,6 +17,7 @@
   },
   "author": "Echogarden project",
   "repository": {
+    "type": "git",
     "url": "https://github.com/echogarden-project/fvad-wasm"
   },
   "license": "BSD-3-Clause"
