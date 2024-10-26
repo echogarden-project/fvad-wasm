@@ -1,24 +1,24 @@
 {
-  "name": "@echogarden/fvad-wasm",
-  "version": "0.1.2",
-  "description": "WebRTC VAD library, compiled to WASM. Intended for use with Echogarden.",
-  "publishConfig": {
-    "access": "public"
-  },
-  "main": "fvad.cjs",
-  "files": [
-    "fvad.cjs",
-    "fvad.wasm",
-    "LICENSE",
-    "README.md"
-  ],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Echogarden project",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/echogarden-project/fvad-wasm"
-  },
-  "license": "BSD-3-Clause"
+	"name": "@echogarden/fvad-wasm",
+	"version": "0.2.0",
+	"description": "WebRTC VAD library, compiled to WASM. Intended for use with Echogarden.",
+	"publishConfig": {
+		"access": "public"
+	},
+	"main": "fvad.js",
+	"type": "module",
+	"files": [
+		"fvad.js",
+		"fvad.wasm",
+		"LICENSE",
+		"README.md"
+	],
+	"scripts": {
+	},
+	"author": "Echogarden project",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/echogarden-project/fvad-wasm"
+	},
+	"license": "BSD-3-Clause"
 }
